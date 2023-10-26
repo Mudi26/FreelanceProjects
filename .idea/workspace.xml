@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b949cb8d-d90e-46ee-88ad-508cffc6e5f4" name="Changes" comment="Created 2 new classes, Gameframe and Gamepanel.&#10;Created constructors and instances of those classes, at the moment a litlle box is showing when running Snake(Main)">
+    <list default="true" id="b949cb8d-d90e-46ee-88ad-508cffc6e5f4" name="Changes" comment="Added many methods to the GamePanel class, also an Inner class, that has the keyPressed method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698331610940</updated>
-      <workItem from="1698331611953" duration="3333000" />
+      <workItem from="1698331611953" duration="4882000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1698331711879</created>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698334312931</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added many methods to the GamePanel class, also an Inner class, that has the keyPressed method.">
+      <created>1698335201544</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698335201544</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +119,7 @@
     <MESSAGE value="Testing the debugger, with a little addition program" />
     <MESSAGE value="workspace something needs to be added" />
     <MESSAGE value="Created 2 new classes, Gameframe and Gamepanel.&#10;Created constructors and instances of those classes, at the moment a litlle box is showing when running Snake(Main)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created 2 new classes, Gameframe and Gamepanel.&#10;Created constructors and instances of those classes, at the moment a litlle box is showing when running Snake(Main)" />
+    <MESSAGE value="Added many methods to the GamePanel class, also an Inner class, that has the keyPressed method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added many methods to the GamePanel class, also an Inner class, that has the keyPressed method." />
   </component>
 </project>
