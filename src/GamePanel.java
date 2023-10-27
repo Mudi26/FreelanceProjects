@@ -36,18 +36,32 @@ public class GamePanel extends JPanel implements ActionListener { //JPanel acts 
     }
 
     public void startGame(){ //Method for starting game
-
+        newApple(); //Putting the apple on the screen
+        running = true; // Set the game state to running, indicating the snake is active
+        timer = new Timer(DELAY, this); // Create a Timer instance with the specified delay and this object as the ActionListener
+        // The listener performs the actionPerformed every DELAY(75) milliseconds.
+        // Meaning it will focus on whether there has been a change in the game, example: direction, so it can turn the snake
+        // "this", means this instance of the GamePanel, if there was a new game, it has its own new instance.
+        timer.start(); // Start the timer, which will trigger the actionPerformed method
     }
 
-    public void paintComponent(Graphics g){ //Method for coloring?
-
+    public void paintComponent(Graphics g) { // Method for rendering graphics on the panel
+        super.paintComponent(g); // Call the superclass's paintComponent method to clear previous drawings and prepare for new rendering
+        draw(g); // Call the custom draw method to render the current game graphics using the Graphics object 'g'
     }
 
-    public void draw(Graphics g){//Method for coloring?
 
+    public void draw(Graphics g){ //Method for creating visible things like, a grid,an apple.
+        for (int i = 0; i < SCREEN_HEIGHT/UNIT_SIZE; i++) {
+            g.drawLine(i*UNIT_SIZE,0,i*UNIT_SIZE, SCREEN_HEIGHT); //Creating matrixes, so every unit can be seen (x)
+            g.drawLine(0,i*UNIT_SIZE, SCREEN_WIDTH, i*UNIT_SIZE); //Creating matrixes, so every unit can be seen (y)
+        }
+        g.setColor(Color.red); //Coloring the apple
+        g.fillOval(appleX,appleY,UNIT_SIZE,UNIT_SIZE); //Creating it as a circle
     }
-
-    public void newApple(){ //Method for implementing an apple
+    public void newApple(){ //Method for implementing a new apple
+        appleX = random.nextInt((int)(SCREEN_WIDTH/UNIT_SIZE))*UNIT_SIZE; // x coordinate for our apple
+        appleY = random.nextInt((int)(SCREEN_HEIGHT/UNIT_SIZE))*UNIT_SIZE; // x coordinate for our apple
 
     }
 
