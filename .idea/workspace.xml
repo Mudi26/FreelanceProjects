@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b949cb8d-d90e-46ee-88ad-508cffc6e5f4" name="Changes" comment="Created the grid for the game, the apple, and the startgame method is mostly done">
+    <list default="true" id="b949cb8d-d90e-46ee-88ad-508cffc6e5f4" name="Changes" comment="The snake is created, and can turn, and dies when hitting the sides or top/bottom">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
     </list>
@@ -71,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698331610940</updated>
       <workItem from="1698331611953" duration="4970000" />
-      <workItem from="1698429056808" duration="3243000" />
+      <workItem from="1698429056808" duration="4471000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1698331711879</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698432552537</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="The snake is created, and can turn, and dies when hitting the sides or top/bottom">
+      <created>1698434080557</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698434080557</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +144,7 @@
     <MESSAGE value="Added many methods to the GamePanel class, also an Inner class, that has the keyPressed method." />
     <MESSAGE value="Added Constants, to the GamePanel, and added a few &quot;this.&quot; methods, under the GamePanel constructor&#10;Defined the start of the coordinates, the apple and the timer etc. But not done the logic yet." />
     <MESSAGE value="Created the grid for the game, the apple, and the startgame method is mostly done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the grid for the game, the apple, and the startgame method is mostly done" />
+    <MESSAGE value="The snake is created, and can turn, and dies when hitting the sides or top/bottom" />
+    <option name="LAST_COMMIT_MESSAGE" value="The snake is created, and can turn, and dies when hitting the sides or top/bottom" />
   </component>
 </project>
